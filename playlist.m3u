@@ -55,37 +55,37 @@ https://rozhlas.stream/vysocina_high.aac
 https://rozhlas.stream/zlin_high.aac
 
 #EXTINF:-1, Fajn Rádio
-https://21293.live.streamtheworld.com/FAJN_RADIO_128.mp3
+https://playerservices.streamtheworld.com/api/livestream-redirect/FAJN_RADIO_128.mp3
 
 #EXTINF:-1, Hitrádio City (Praha)
-https://25633.live.streamtheworld.com/HITRADIO_CITY_PRAHA_128.mp3
+https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_CITY_PRAHA_128.mp3
 
 #EXTINF:-1, Hitrádio City (Brno)
-https://ice.abradio.cz/citybrno128.mp3
+https://ice.radia.cz/citybrno128.mp3
 
 #EXTINF:-1, Hitrádio Orion
-https://25643.live.streamtheworld.com/HITRADIO_ORION_128.mp3
+https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_ORION_128.mp3
 
 #EXTINF:-1, Hitrádio Contact
-https://ice3.abradio.cz/hitradiocontact128.mp3
+https://ice3.radia.cz/hitradiocontact128.mp3
 
 #EXTINF:-1, Hitrádio Černá Hora
-https://ice.abradio.cz/cernahora128.mp3
+https://ice.radia.cz/cernahora128.mp3
 
 #EXTINF:-1, Hitrádio Faktor
-https://22333.live.streamtheworld.com/HITRADIO_FAKTOR_128.mp3
+https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_FAKTOR_128.mp3
 
 #EXTINF:-1, Hitrádio FM Plus
-https://23543.live.streamtheworld.com/HITRADIO_FMPLUS_128.mp3
+https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_FMPLUS_128.mp3
 
 #EXTINF:-1, Hitrádio North Music
-https://ice.abradio.cz/hitradionorthmusic128.mp3
+https://ice.radia.cz/hitradionorthmusic128.mp3
 
 #EXTINF:-1, Hitrádio Vysočina
-https://25683.live.streamtheworld.com/HITRADIO_VYSOCINA.aac
+https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_VYSOCINA.aac
 
 #EXTINF:-1, Hitrádio Zlín
-https://ice.abradio.cz/radiozlin128.mp3
+https://ice.radia.cz/radiozlin128.mp3
 
 #EXTINF:-1, Evropa 2
 https://ice.actve.net/fm-evropa2-128
@@ -94,7 +94,7 @@ https://ice.actve.net/fm-evropa2-128
 https://ice.actve.net/fm-frekvence1-128
 
 #EXTINF:-1, Rádio Blaník
-https://25553.live.streamtheworld.com/RADIO_BLANIK_128.mp3
+https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_BLANIK_128.mp3
 
 #EXTINF:-1, Rádio Kiss
 https://icecast4.play.cz/kiss128.mp3
@@ -103,13 +103,13 @@ https://icecast4.play.cz/kiss128.mp3
 https://icecast9.play.cz/zun192.mp3
 
 #EXTINF:-1, Rock Rádio
-https://22193.live.streamtheworld.com/ROCK_RADIO_128.mp3
+https://playerservices.streamtheworld.com/api/livestream-redirect/ROCK_RADIO_128.mp3
 
 #EXTINF:-1, Rádio Impuls
 https://icecast1.play.cz/impuls128.mp3
 
 #EXTINF:-1, Rádio Beat
-https://ice5.abradio.cz/beat128.mp3
+https://ice5.radia.cz/beat128.mp3
 
 #EXTINF:-1, Country Rádio
 https://icecast4.play.cz/country128.mp3
@@ -133,7 +133,7 @@ https://icecast9.play.cz/metropole128.mp3
 https://server.radioorlicko.cz/stream192.mp3
 
 #EXTINF:-1, Rádio Spin
-https://ice5.abradio.cz/spin128.mp3
+https://ice5.radia.cz/spin128.mp3
 
 #EXTINF:-1, Classic Praha
 https://icecast8.play.cz/classic128.mp3
