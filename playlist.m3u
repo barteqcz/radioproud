@@ -132,6 +132,9 @@ https://icecast9.play.cz/metropole128.mp3
 #EXTINF:-1, Rádio Orlicko
 https://server.radioorlicko.cz/stream192.mp3
 
+#EXTINF:-1, Rádio 1
+https://n22a-eu.rcs.revma.com/stk8hrvb938uv
+
 #EXTINF:-1, Rádio Spin
 https://ice5.radia.cz/spin128.mp3
 
