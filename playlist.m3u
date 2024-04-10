@@ -99,6 +99,9 @@ https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_BLANIK_1
 #EXTINF:-1, Rádio Kiss
 https://icecast4.play.cz/kiss128.mp3
 
+#EXTINF:-1, Signal Rádio
+https://icecast1.play.cz/signal192.mp3
+
 #EXTINF:-1, ZUN Rádio
 https://icecast9.play.cz/zun192.mp3
 
