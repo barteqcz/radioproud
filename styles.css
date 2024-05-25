@@ -37,6 +37,16 @@ footer {
     align-items: center;
 }
 
+input {
+    color: #fffbff;
+    border-radius: 18px;
+    background-color: #353541;
+    padding: 12px;
+    border: 0;
+    font-size: 16px;
+    margin: 10px 0 10px 0;
+}
+
 .taskbar-icons {
     color: #353541;
     font-size: 40px;
@@ -109,6 +119,23 @@ footer {
     width: auto;
 }
 
+#addStation {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.suggestion-box {
+    flex-direction: column; 
+    padding: 30px;
+    color: #353541;
+    border-radius: 15px;
+    background-color: #e8e6ec;
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
 /* Helper classes styles */
 .btn-link {
     cursor: pointer;
@@ -116,6 +143,32 @@ footer {
 
 .icon-right {
     float: right;
+}
+
+#alert-box {
+    color: #ffffff;
+    border-radius: 15px;
+    background-color: #d41e1e80;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    position: absolute;
+    bottom: 50px;
+}
+
+#alert-box2 {
+    color: #ffffff;
+    border-radius: 15px;
+    background-color: #69ff5b80;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    position: absolute;
+    bottom: 50px;
 }
 
 /* Dark mode styles */
@@ -160,6 +213,17 @@ footer {
     color: #fffbff;
 }
 
+.dark-mode .suggestion-box {
+    flex-direction: column; 
+    padding: 30px;
+    color: #353541;
+    border-radius: 15px;
+    background-color: #2a2a2f;
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
 /* Responsive styles */
 /* Mobile */
 @media (max-width: 767px) {
@@ -188,6 +252,26 @@ footer {
 
     .box4 {
         display: none;
+    }
+
+    #addStation {
+        width: 90%;
+    }
+
+    #alert-box {
+        width: 80%;
+    }
+
+    #alert-box2 {
+        width: 80%;
+    }
+
+    .suggestion-box {
+        width: 70%;
+    }
+
+    .dark-mode .suggestion-box {
+        width: 70%;
     }
 }
 
