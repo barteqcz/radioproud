@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="česká, rádia, proud, radio">
+        <title>Přídat další stanicí | Rádioproud - česká rádia online.</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="theme.js"></script>
+        <script src="sendsuggestion.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <i class="fa-solid fa-toggle-off taskbar-icons toggle-btn" onclick="toggleMode()"></i>
+        </header>
+        
+        <main style="height: calc(100vh - 120px); display: flex; justify-content: center;">
+            <div class="suggestion-box">
+                <form id="addStation">
+                    <input type="text" id="newStationName" placeholder="Název stanice">
+                    <input type="text" id="newStationWebSite" placeholder="Odkaz na web stanice">
+                    <input type="text" id="newStationWebStream" placeholder="Webstream stanice">
+                </form>
+                <button class="btn" style="margin-top: 30px; margin-bottom: 10px; width: 240px;" onclick="sendSuggestion()">Odeslat</button>
+            </div>
+            <div id="alert-box" class="fade-in" style="visibility: hidden;">
+                <p><b>Zadejte prosím název stanice</b></p>
+            </div>
+            <div id="alert-box2" class="fade-in" style="visibility: hidden;">
+                <p><b>Odeslano uspěšně, díky!</b></p>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
