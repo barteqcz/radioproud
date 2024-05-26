@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.querySelector('.searchbar').addEventListener('input', function () {
         const searchTerm = normalizeString(this.value);
+        const footerText = document.getElementById("footer-text")
         let stationsFound = false;
 
         document.querySelectorAll('.box').forEach(function (box) {
@@ -38,20 +39,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (elementToSearch) {
                 const elementText = normalizeString(elementToSearch.textContent || elementToSearch.value);
-                const footerText = document.getElementById("footer-text")
 
                 const displayStyle = elementText.includes(searchTerm) ? 'flex' : 'none';
+                const displayStyle2 = elementText.includes(searchTerm) ? 'hidden' : 'visible';
                 box.style.display = displayStyle;
+                footerText.style.visibility = displayStyle2;
 
                 if (displayStyle === 'flex') {
                     stationsFound = true;
-                    footerText.style.visibility = hidden;
                 }
             }
         });
 
         noStationsFound.style.display = stationsFound ? 'none' : 'block';
-        footerText.style.visibility = visible;
     });
 
     function playRadio(audioId) {
