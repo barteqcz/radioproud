@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.querySelector('.searchbar').addEventListener('input', function () {
         const searchTerm = normalizeString(this.value);
-        const footerText = document.getElementById("footer-text");
         let stationsFound = false;
 
         document.querySelectorAll('.box').forEach(function (box) {
@@ -39,13 +38,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (elementToSearch) {
                 const elementText = normalizeString(elementToSearch.textContent || elementToSearch.value);
+
                 const displayStyle = elementText.includes(searchTerm) ? 'flex' : 'none';
                 box.style.display = displayStyle;
-                footerText.innerHTML = 'Chybí vám tady ' + document.querySelector('.searchbar').value + '? <a href="pridat-stanici.html" target="_blank">Dejte mi vědět!</a>';
 
                 if (displayStyle === 'flex') {
                     stationsFound = true;
                 }
+            }
         });
 
         noStationsFound.style.display = stationsFound ? 'none' : 'block';
@@ -323,4 +323,4 @@ function updateOptionsHitradio() {
                 audio.src = audio.src + '?cachebust=' + new Date();
             });
         }
-    }
+}
