@@ -38,17 +38,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (elementToSearch) {
                 const elementText = normalizeString(elementToSearch.textContent || elementToSearch.value);
+                const footerText = document.getElementById("footer-text")
 
                 const displayStyle = elementText.includes(searchTerm) ? 'flex' : 'none';
                 box.style.display = displayStyle;
 
                 if (displayStyle === 'flex') {
                     stationsFound = true;
+                    footerText.style.visibility = hidden;
                 }
             }
         });
 
         noStationsFound.style.display = stationsFound ? 'none' : 'block';
+        footerText.style.visibility = visible;
     });
 
     function playRadio(audioId) {
