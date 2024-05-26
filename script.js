@@ -46,14 +46,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 if (displayStyle === 'flex') {
                     stationsFound = true;
-                    footerText.style.visibility = 'hidden';
-                } else {
-                     footerText.style.visibility = 'visible';
                 }
             }
         });
 
         noStationsFound.style.display = stationsFound ? 'none' : 'block';
+        footerText.style.visibility = stationsFound ? 'hidden' : 'visible';
     });
 
     function playRadio(audioId) {
