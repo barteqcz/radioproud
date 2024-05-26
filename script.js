@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', function () {
         const searchTerm = normalizeString(this.value);
         const footerText = document.getElementById("footer-text")
         let stationsFound = false;
-        footerText.style.visibility = 'visible';
 
         document.querySelectorAll('.box').forEach(function (box) {
             let elementToSearch = null;
