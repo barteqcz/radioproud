@@ -43,11 +43,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 const displayStyle = elementText.includes(searchTerm) ? 'flex' : 'none';
                 box.style.display = displayStyle;
                 footerText.innerHTML = 'Chybí vám tady ' + searchTerm + '? <a href="pridat-stanici.html" target="_blank">Dejte mi vědět!</a>';
-                const displayStyle2 = elementText.includes(searchTerm) ? 'hidden' : 'visible';
-                footerText.style.visibility = displayStyle2;
 
                 if (displayStyle === 'flex') {
                     stationsFound = true;
+                    footerText.style.visibility = 'hidden';
+                } else {
+                     footerText.style.visibility = 'visible';
                 }
             }
         });
