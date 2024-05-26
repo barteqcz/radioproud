@@ -47,6 +47,10 @@ input {
     margin: 10px 0 10px 0;
 }
 
+button {
+    cursor: pointer;
+}
+
 .taskbar-icons {
     color: #353541;
     font-size: 40px;
