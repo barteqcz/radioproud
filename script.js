@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('.searchbar').addEventListener('input', function () {
         const searchTerm = normalizeString(this.value);
         const footerText = document.getElementById("footer-text");
-        footerText.innerHTML = '<p id="footer-text" style="visibility: hidden;">Chybí vám tady nějaké rádio? <a href="pridat-stanici.html" target="_blank">Dejte mi vědět!</a></p>';
+        footerText.innerHTML = 'Chybí vám tady ' + searchTerm + '? <a href="pridat-stanici.html" target="_blank">Dejte mi vědět!</a>';
         let stationsFound = false;
 
         document.querySelectorAll('.box').forEach(function (box) {
