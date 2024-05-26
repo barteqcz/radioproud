@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('.searchbar').addEventListener('input', function () {
         const searchTerm = normalizeString(this.value);
         const footerText = document.getElementById("footer-text");
-        footerText.innerHTML = 'Chybí vám tady ' + searchTerm + '? <a href="pridat-stanici.html" target="_blank">Dejte mi vědět!</a>';
         let stationsFound = false;
 
         document.querySelectorAll('.box').forEach(function (box) {
@@ -42,8 +41,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 const elementText = normalizeString(elementToSearch.textContent || elementToSearch.value);
                 
                 const displayStyle = elementText.includes(searchTerm) ? 'flex' : 'none';
-                const displayStyle2 = elementText.includes(searchTerm) ? 'hidden' : 'visible';
                 box.style.display = displayStyle;
+                footerText.innerHTML = 'Chybí vám tady ' + searchTerm + '? <a href="pridat-stanici.html" target="_blank">Dejte mi vědět!</a>';
+                const displayStyle2 = elementText.includes(searchTerm) ? 'hidden' : 'visible';
                 footerText.style.visibility = displayStyle2;
 
                 if (displayStyle === 'flex') {
