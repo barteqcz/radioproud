@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 
                 const displayStyle = elementText.includes(searchTerm) ? 'flex' : 'none';
                 box.style.display = displayStyle;
-                footerText.innerHTML = 'Chybí vám tady ' + searchTerm + '? <a href="pridat-stanici.html" target="_blank">Dejte mi vědět!</a>';
+                footerText.innerHTML = 'Chybí vám tady ' + document.querySelector('.searchbar').addEventListener('input') + '? <a href="pridat-stanici.html" target="_blank">Dejte mi vědět!</a>';
 
                 if (displayStyle === 'flex') {
                     stationsFound = true;
