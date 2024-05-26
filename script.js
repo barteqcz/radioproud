@@ -51,6 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
 
+        footerText.style.visibility = searchTerm === '' ? 'visible' : 'hidden';
         noStationsFound.style.display = stationsFound ? 'none' : 'block';
     });
 
