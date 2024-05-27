@@ -1,4 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
+
+    fetch('audio.html')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('audio-container').innerHTML = data;
+    });
+    .catch(error => console.error('Error loading audio.html:', error));
+    
     document.getElementById("cro-city").value = "rpraha";
     document.getElementById("hitradio-city").value = "hitradio-city-praha";
 
