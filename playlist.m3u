@@ -123,6 +123,9 @@ https://ice.actve.net/dance-radio320.mp3
 #EXTINF:-1, Free Rádio
 https://icecast8.play.cz/freeradio128.mp3
 
+#EXTINF:-1, Rádio Jih
+https://icecast6.play.cz/jih128.mp3
+
 #EXTINF:-1, Fresh Rádio
 https://icecast.beatzone.cz/radio/8000/320.mp3
 
