@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const noStationsFound = document.getElementById('noStationsFound');
 
-    document.querySelector('.searchbar').addEventListener('input', function () {
+    document.querySelector('.searchbar-field').addEventListener('input', function () {
         const searchTerm = normalizeString(this.value);
         let stationsFound = false;
 
@@ -92,6 +92,12 @@ document.addEventListener('DOMContentLoaded', function () {
     function normalizeString(str) {
         return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
     }
+
+    window.eraseSearch = function () {
+        document.querySelector('.searchbar-field').value = "";
+        const searchEvent = new Event('input', { bubbles: true });
+        document.querySelector('.searchbar-field').dispatchEvent(searchEvent);
+    };
 
 });
 
