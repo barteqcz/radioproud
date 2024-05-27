@@ -78,14 +78,28 @@ input {
 }
 
 /* Styles for search bar */
-.searchbar {
+.searchbar-field {
     background-color: #e5e0e4;
-    width: 70%;
+    color: #1c1b20;
+    width: 95%;
     padding: 15px;
     border-radius: 18px;
     border: 0;
     font-size: 14px;
     margin-right: 20px;
+}
+
+.searchbar {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+}
+
+.delete-icon {
+    position: absolute;
+    top: 42px;
+    font-size: 24px;
+    margin-right: 35px;
 }
 
 /* Styles for station boxes */
@@ -177,15 +191,27 @@ input {
     color: #fffbff;
 }
 
-.dark-mode .searchbar {
-    background-color: #343338;
-    color: #fffbff;
-    width: 70%;
+.dark-mode .searchbar-field {
+    background-color: #2a2a2f;
+    color: #ffffff;
+    width: 95%;
     padding: 15px;
     border-radius: 18px;
     border: 0;
     font-size: 14px;
     margin-right: 20px;
+}
+
+.dark-mode .searchbar {
+    width: 70%;
+}
+
+.dark-mode .delete-icon {
+    color: #ffffff;
+    position: absolute;
+    top: 42px;
+    font-size: 24px;
+    margin-right: 35px;
 }
 
 .dark-mode .box {
