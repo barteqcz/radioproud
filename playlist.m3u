@@ -123,6 +123,9 @@ https://ice.actve.net/dance-radio320.mp3
 #EXTINF:-1, Free Rádio
 https://icecast8.play.cz/freeradio128.mp3
 
+#EXTINF:-1, Rádio Čas
+https://icecast7.play.cz/cas128.mp3
+
 #EXTINF:-1, Rádio Jih
 https://icecast6.play.cz/jih128.mp3
 
@@ -131,6 +134,9 @@ https://icecast.beatzone.cz/radio/8000/320.mp3
 
 #EXTINF:-1, Rádio Hana
 https://icecast8.play.cz/hana128.mp3
+
+#EXTINF:-1, Rádio Krokodýl
+https://icecast4.play.cz/krokodyl128.mp3
 
 #EXTINF:-1, Rádio Metropole
 https://icecast9.play.cz/metropole128.mp3
