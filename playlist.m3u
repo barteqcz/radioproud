@@ -1,58 +1,58 @@
 #EXTM3U
 
 #EXTINF:-1, ČRo Rádiožurnál
-https://rozhlas.stream/radiozurnal_mp3_128.mp3
+http://amp.cesnet.cz:8000/cro1-256.ogg
 
 #EXTINF:-1, ČRo Dvojka
-https://rozhlas.stream/dvojka_mp3_128.mp3
+http://amp.cesnet.cz:8000/cro2-256.ogg
 
 #EXTINF:-1, ČRo Vltava
 https://rozhlas.stream/vltava_mp3_256.mp3
 
 #EXTINF:-1, ČRo Plus
-https://rozhlas.stream/plus_mp3_128.mp3
+http://amp.cesnet.cz:8000/cro-plus-256.ogg
 
 #EXTINF:-1, ČRo Praha
-https://rozhlas.stream/radio_dab_praha_high.aac
+https://rozhlas.stream/radio_dab_praha.mp3
 
 #EXTINF:-1, ČRo Brno
-https://rozhlas.stream/brno_high.aac
+https://rozhlas.stream/brno.mp3
 
 #EXTINF:-1, ČRo Ostrava
-https://rozhlas.stream/ostrava_high.aac
+https://rozhlas.stream/ostrava.mp3
 
 #EXTINF:-1, ČRo Olomouc
-https://rozhlas.stream/olomouc_high.aac
+https://rozhlas.stream/olomouc.mp3
 
 #EXTINF:-1, ČRo České Budějovice
-https://rozhlas.stream/ceske_budejovice_high.aac
+https://rozhlas.stream/ceske_budejovice.mp3
 
 #EXTINF:-1, ČRo Hradec Králové
-https://rozhlas.stream/hradec_kralove_high.aac
+https://rozhlas.stream/hradec_kralove.mp3
 
 #EXTINF:-1, ČRo Karlovy Vary
-https://rozhlas.stream/karlovy_vary_high.aac
+https://rozhlas.stream/karlovy_vary.mp3
 
 #EXTINF:-1, ČRo Liberec
-https://rozhlas.stream/liberec_high.aac
+https://rozhlas.stream/liberec.mp3
 
 #EXTINF:-1, ČRo Pardubice
-https://rozhlas.stream/pardubice_high.aac
+https://rozhlas.stream/pardubice.mp3
 
 #EXTINF:-1, ČRo Plzeň
-https://rozhlas.stream/plzen_high.aac
+https://rozhlas.stream/plzen.mp3
 
-#EXTINF:-1, ČRo Region
-https://rozhlas.stream/region_high.aac
+#EXTINF:-1, ČRo Střední Čechy
+https://rozhlas.stream/region.mp3
 
 #EXTINF:-1, ČRo Sever
-https://rozhlas.stream/sever_high.aac
+https://rozhlas.stream/sever.mp3
 
 #EXTINF:-1, ČRo Vysočina
-https://rozhlas.stream/vysocina_high.aac
+https://rozhlas.stream/vysocina.mp3
 
 #EXTINF:-1, ČRo Zlín
-https://rozhlas.stream/zlin_high.aac
+https://rozhlas.stream/zlin.mp3
 
 #EXTINF:-1, Fajn Rádio
 https://playerservices.streamtheworld.com/api/livestream-redirect/FAJN_RADIO_128.mp3
